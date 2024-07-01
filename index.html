@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+</head>
+<body>
+    
+    <div class="container">
+
+            <div class="search-box">
+                <input type="text" placeholder="Enter Your Location" class="input-box">
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+            </div>
+  
+      <div class="locations">
+        <h1>Sorry, Location not found!!!</h1>
+        <img src="/images/404.png" alt="04 Error">
+      </div>  
+
+        <div class="weather">
+          <img src="/images/cloud.png" alt="Weather Image" class="weather-img">
+
+          <div class="weather-box">
+              <p class="temperature">0<sup>°C</sup></p>
+              <p class="description"></p>
+          </div>
+          <div class="weather-details">
+              <div class="humidity">
+                  <div class="text">
+                      <span id="humidity"></span>
+                      <p>Humidity</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/efe62c8f10.js" crossorigin="anonymous"></script>
+</body>
+</html>
